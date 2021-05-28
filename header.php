@@ -1,3 +1,6 @@
+<?php
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -39,62 +42,24 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item active px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="index.html">Página Inicial
+            <a class="nav-link text-uppercase text-expanded" href="index.php">Página Inicial
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="about.html">Acerca</a>
+            <a class="nav-link text-uppercase text-expanded" href="about.php">Acerca</a>
           </li>
           <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="products.html">Produtos</a>
+            <a class="nav-link text-uppercase text-expanded" href="products.php">Produtos</a>
           </li>
           <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="store.html">Loja</a>
+            <a class="nav-link text-uppercase text-expanded" href="store.php">Loja</a>
           </li>
           <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="contacto.html">Contacto</a>
+            <a class="nav-link text-uppercase text-expanded" href="contacto.php">Contacto</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-
-          
-  <section class="page-section cta">
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-9 mx-auto">
-          <div class="cta-inner text-center rounded">
-               <p style="font-size: 20px;"><b>Insira os seus dados de Administrador</b></p>
-   
-
-               <form action="administrador.php" method="post">
-        
-        Nome: <br> <input type="text" name="nome" style="margin-bottom: 5px;">
-        <p>
-        Password: <br> <input type="password" name="password" id=""> <p>
-        <input type="submit" value="Entrar" id="">
-
-    </form> 
-        </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
-  <footer class="footer text-faded text-center py-5">
-    <div class="container">
-      <p class="m-0 small">Copyright &copy; Your Website 2020</p>
-    </div>
-  </footer>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-</body>
-
-</html>
+  </html>

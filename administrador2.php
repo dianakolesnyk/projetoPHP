@@ -17,7 +17,7 @@ if (mysqli_num_rows($resultado) == 1){
     header('location:store.html');
 }else{
     $_SESSION['errorMessage'] = true;
-         header("Location:administrador.html");
+         header("Location:administrador1.php");
          exit();;
 }
 
